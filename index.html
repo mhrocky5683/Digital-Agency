@@ -8,11 +8,27 @@
         <title>Digital</title>
         <link rel="stylesheet" href="style.css" />
 
-        
+        <!-- tailwain section -->
+
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: '#da373d',
+                  }
+                }
+              }
+            }
+          </script>
     </head>
 
     <body>
-        <!-- <header> hearder section</header> -->
+
+        <!--  hearder section -->
+
         <header>
             <div class="nav-container">
                 <div class="logo-container">
@@ -20,7 +36,6 @@
                 </div>
                 <div class="menu-container">
                     <ul class="items">
-                        <li class="item">Home</li>
                         <li class="item">About</li>
                         <li class="item">Contact</li>
                         <li class="item">Service</li>
@@ -28,12 +43,14 @@
                 </div>
             </div>
         </header>
+
         <!-- main section  -->
+
         <main>
             <div class="banner-container">
                 <div class="banner-details">
                     <h1 class="title-banner">
-                        <span class="primary">Digital</span> Agency You <br />
+                        <span class="primary ">Digital</span> Agency You <br />
                         Can Rely Upon !
                     </h1>
                     <p class="descripton">
@@ -43,10 +60,11 @@
                     </p>
                     <div class="buttons">
                         <button class="btn-discover btn">DISCOVER ME</button>
-                        <button class="btn-hire btn">HIRE US NOW</button>
+                        <button class="btn-hire btn bg-red-400 ">HIRE US NOW</button>
                     </div>
                 </div>
             </div>
+
             <!-- service section  -->
 
             <div class="service-container">
